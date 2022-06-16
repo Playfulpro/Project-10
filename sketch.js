@@ -3,7 +3,7 @@ var seaImg,shipImg;
 
 function preload(){
   //uncomment the code to add animation to ship
-  ship.addAnimation("movingShip",shipImg);
+  shipImg = loadAnimation("ship-1.png", "ship-2.png");
   seaImg = loadImage("sea.png");
 }
 
